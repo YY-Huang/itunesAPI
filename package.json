@@ -1,0 +1,42 @@
+{
+  "name": "itunesapi",
+  "version": "1.0.0",
+  "description": "An iTunes search library using React, and Express bundled with webpack tooling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server/server.js",
+    "build": "webpack --watch --mode production",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YY-Huang/itunesAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YY-Huang/itunesAPI/issues"
+  },
+  "homepage": "https://github.com/YY-Huang/itunesAPI#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "nodemon": "^1.18.4",
+    "react-router-dom": "^4.3.1",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
