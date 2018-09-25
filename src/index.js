@@ -8,6 +8,8 @@ import {
 	withRouter
 } from 'react-router-dom';
 
+import searchForm from './components/searchForm';
+
 class App extends React.Component{
     constructor(props) {
         super(props);
@@ -16,6 +18,8 @@ class App extends React.Component{
     render() {
         return (
             <div>
+                <searchForm />
+                {searchForm}
                 <h1> Test </h1>
             </div>
         )

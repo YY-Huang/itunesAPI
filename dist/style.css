@@ -1,0 +1,13 @@
+/* #searchForm {
+    border: 1px solid #333;
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
+} */
+
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+    width: auto;
+}
