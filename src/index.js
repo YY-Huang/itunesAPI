@@ -19,7 +19,6 @@ class App extends React.Component{
         return (
             <div>
                 <searchForm />
-                {searchForm}
                 <h1> Test </h1>
             </div>
         )
